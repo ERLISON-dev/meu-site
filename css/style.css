@@ -147,3 +147,71 @@ header a {
      text-decoration:none;
      color: #00ffff;
  }
+
+ @media screen and (min-widht:760px ) {
+  /*Nav*/
+  nav { 
+      flex-direction:row;
+      justify-content: space-around;
+  }   
+  nav ul { 
+      flex-direction: row;
+      width: 70%;
+  }
+  /*Cabeçalho*/
+
+  header { 
+      height: 600px;
+      height: 60vh;
+      justify-content: center;
+
+  }
+  /*Sobre*/
+  #Sobre  { 
+      height: 250px;
+      height: 30vh;
+      justify-content: center;
+      min-height: 250px;
+  }
+  #Serviços { 
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      max-width: 1000px;
+      margin: 0 auto;
+  }
+  #Serviços h2 { 
+      text-align: center;
+      width: 100%;
+  }
+  #Serviços div { 
+      flex-grow: 1;
+      flex-basis: 150px;
+      padding: 0 10px;
+  }
+  /*Fotos*/
+  #Fotos { 
+      flex-direction: ;
+      flex-wrap: wrap;
+      
+  }
+  #Fotos h2 { 
+      width: 100%;
+      text-align:center;
+  }
+  #Fotos img { 
+      width: 33,3333333%;
+  }
+  /*Contato*/
+  #Contato { 
+      flex-direction: row;
+      flex-wrap:wrap;
+      justify-content: space-around;
+      max-width: 500px;
+      margin: 0 auto;
+      
+  }
+    #Contato h2, #Contato p { 
+        width: 100%;
+    }
+ }
